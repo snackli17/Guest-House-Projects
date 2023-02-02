@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  background-color: #52503b;
+}
+
+.header__logo {
+  padding-top: 18px;
+  padding-bottom: 17px;
+  padding-left: 120px;
+}
+
+.header__menu {
+  display: flex;
+  flex-wrap: row;
+  justify-content: space-around;
+  margin-left: 358px;
+  list-style: none;
+}
+
+.header__menu a {
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  padding-right: 24px;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+
+.header__btn {
+  margin-left: 344px;
+  background: #ffffff;
+  width: 117px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #52503b;
+}
+
+.house__info {
+  min-height: 100vh;
+  width: 1440px;
+  background: url("../img/fon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.house__guest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 178.25px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+.house__logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.house__title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 31px;
+}
+
+.house__text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 31px;
+}
+
+.house_icon {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-top: 116.75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 98.75;
+}
+
+.features {
+  height: 410px;
+  width: 1440px;
+  border: 1px solid red;
+  display: flex;
+}
+
+.features__container {
+height: 170px;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid green;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+.features__rectangle {
+background: #E08631;
+border-radius: 0px;
+height: 8px;
+margin-left: auto;
+margin-right: auto;
+width: 42px;
+}
+
+.features__text {
+height: 180px;
+width: 360px;
+
+}
+
+.features_text2 {
+  height: 80px;
+  width: 343px;
+}
